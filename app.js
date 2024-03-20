@@ -58,7 +58,7 @@ app.use((error, _req, res, _next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://bogdanpetcu02:Petcu123@cluster0.xwi6upv.mongodb.net/posts?retryWrites=true&w=majority&appName=Cluster0"
+    "Enter your mongodb link here"
   )
   .then((_result) => {
     app.listen(8080);
